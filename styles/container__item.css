@@ -11,7 +11,7 @@
   cursor: pointer;
   background-color: var(--item-color);
   border-radius: 2rem;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 @media (min-width: 320px) and (max-width: 600px) {

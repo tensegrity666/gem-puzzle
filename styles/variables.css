@@ -1,10 +1,14 @@
 :root {
   --size: 150px;
+  --button-height: 50px;
+  --button-height-mobile: 30px;
+  --button-color: linear-gradient(30deg, rgb(255, 163, 59) 0%, #FF2525 74%);
+  --button-font-color: #000000;
   --font: 'Sen', sans-serif;
   --font-color: #134d68;
   --font-hover: #2a94b4;
   --item-color: #ad7fb3;
-  --container-color: #50bd67;
+  --container-color: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
   --container-size: 630px;
   --gap: 1rem;
 

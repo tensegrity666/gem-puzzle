@@ -10,7 +10,7 @@
   height: auto;
   padding: 1rem;
   margin: 5rem auto;
-  background-color: var(--container-color);
+  background-image: var(--container-color);
   border-radius: 3rem;
 }
 

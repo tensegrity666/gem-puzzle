@@ -1,3 +1,18 @@
 .controls__button {
+  height: var(--button-height);
+  font-family: var(--font);
+  font-size: 2rem;
+  color: var(--button-font-color);
+  cursor: pointer;
+  background-image: var(--button-color);
+  border: none;
+  border-radius: 2.5rem;
+}
 
+@media (min-width: 320px) and (max-width: 600px) {
+  .controls__button {
+    grid-column: span 4;
+    height: var(--button-height-mobile);
+    font-size: 1.5rem;
+  }
 }

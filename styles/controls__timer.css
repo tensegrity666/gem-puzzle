@@ -1,0 +1,15 @@
+.controls__timer {
+  grid-column: span 4;
+  padding: 1rem;
+  font-family: var(--font);
+  font-size: 7rem;
+  text-align: center;
+  opacity: 0.7;
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+  .controls__timer {
+    padding: 0.5rem;
+    font-size: 4rem;
+  }
+}
