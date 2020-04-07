@@ -1,13 +1,23 @@
 :root {
-  --small-height: 38vh;
+  --size: 150px;
   --font: 'Sen', sans-serif;
   --font-color: #134d68;
   --font-hover: #2a94b4;
-  --wrapper-width: 1700px;
-  --wrapper-height: 750px;
+  --item-color: #ad7fb3;
+  --container-color: #50bd67;
+  --container-size: 630px;
+  --gap: 1rem;
 
   overflow-x: hidden;
   overflow-y: auto;
   font-size: 10px;
   background-color: #acc0c398;
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+  :root {
+    --container-size: 305px;
+    --size: 72px;
+    --gap: 0.5rem;
+  }
 }

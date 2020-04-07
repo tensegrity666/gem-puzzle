@@ -1,0 +1,7 @@
+.container__item_empty {
+  width: var(--size);
+  height: var(--size);
+  cursor: none;
+  visibility: hidden;
+  background-color: transparent;
+}

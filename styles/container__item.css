@@ -1,0 +1,23 @@
+.container__item {
+  place-self: center;
+  box-sizing: border-box;
+  width: var(--size);
+  height: var(--size);
+  padding: 30% 2rem;
+  font-family: var(--font);
+  font-size: 5rem;
+  color: var(--font-color);
+  text-align: center;
+  cursor: pointer;
+  background-color: var(--item-color);
+  border-radius: 2rem;
+  opacity: 0.8;
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+  .container__item {
+    padding: 2.5rem;
+    font-size: 2rem;
+    border-radius: 1.5rem;
+  }
+}
