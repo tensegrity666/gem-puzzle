@@ -1,5 +1,7 @@
-import pageinit from './PageInit.js';
+import { pageInit } from './PageInit.js';
+import startTimer from './Timer.js';
 
 window.addEventListener('DOMContentLoaded', () => {
-  pageinit();
+  pageInit();
+  startTimer();
 });

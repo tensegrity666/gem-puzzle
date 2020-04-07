@@ -9,6 +9,11 @@
   border-radius: 2.5rem;
 }
 
+#pause,
+#results {
+  cursor: auto;
+}
+
 @media (min-width: 320px) and (max-width: 600px) {
   .controls__button {
     grid-column: span 4;
